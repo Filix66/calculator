@@ -10,11 +10,11 @@ int main()
 	int number0, number1, result;
 	char operation;
 
-	cout << "Podaj liczbe a: ";
+	cout << "Give a number a: ";
 	cin >> number0;
-	cout << "Co mam zrobic z liczbami? : ";
+	cout << "What am i do with numbers?: ";
 	cin >> operation;
-	cout << "Podaj liczbe b: ";
+	cout << "Give a number b: ";
 	cin >> number1;
 
 	switch (operation)
@@ -36,7 +36,7 @@ int main()
 			cout << "result equal: " << result;
 			break;
 		default:
-			cout << "Nasz kalkulator jest zbyt słaby na takie skomplikowanie obliczenia Przepraszamy!";
+			cout << "Our calkulator is too bad for this complicated calculations Sorry!!!";
 	}
 }
 
