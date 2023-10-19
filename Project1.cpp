@@ -12,7 +12,7 @@ int main()
 
 	cout << "Give a number a: ";
 	cin >> number0;
-	cout << "What am i do with numbers?: ";
+	cout << "What am I do with numbers?: ";
 	cin >> operation;
 	cout << "Give a number b: ";
 	cin >> number1;
@@ -36,7 +36,7 @@ int main()
 			cout << "result equal: " << result;
 			break;
 		default:
-			cout << "Our calkulator is too bad for this complicated calculations Sorry!!!";
+			cout << endl << "\nOur calculator is too bad for this complicated calculations Sorry!!!\n";
 	}
 }
 
